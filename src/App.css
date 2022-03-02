@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'DiodrumArabic-Regular';
+  src: url('/public/fonts/DiodrumArabic-Regular.ttf');
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'DiodrumArabic-Semibold';
+  src: url('/public/fonts/DiodrumArabic-Semibold.ttf');
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: 'DiodrumArabic-Medium';
+  src: url('/public/fonts/DiodrumArabic-Medium.ttf');
+}
+@font-face {
+  font-family: 'DiodrumArabic-Bold';
+  src: url('/public/fonts/DiodrumArabic-Bold.ttf');
+}
+@font-face {
+  font-family: 'Shanti-Regular';
+  src: url('/public/fonts/Shanti-Regular.ttf');
+}
+@font-face {
+  font-family: 'sharp-medium';
+  src: url('/public/fonts/sharp-sans.ttf');
+}
+@media only screen and (max-width: 1600px){
+  .about-header {
+    background-position-y: -90px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (min-width: 1601px){
+  .about-header {
+    background-position-y: -215px;
   }
 }
